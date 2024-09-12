@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="Table Basic" content="Tạo 3 bảng theo mẫu, initial-scale=1.0">
+    <title>Bài 2.11 câu B</title>
+    <style>
+        table {
+            border: 1px solid black;
+            border-collapse: collapse;
+            text-align: center;
+            width:300px;
+            margin: 20px;
+            float:left;
+            display: block;
+        }
+        th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            text-align: center;
+            padding: 15px;
+        }
+        .h{
+            height:50px;
+        }
+        td:first-child{
+            width:100px;
+        }
+        td:nth-child(2){
+            width:100px;
+        }
+        td:nth-child(3){
+            width:100px;
+        }
+        th:first-child{
+            height:50px;
+        }
+        th:nth-child(2){
+            height:50px;
+        }
+        th:nth-child(3){
+            height:50px;
+        }
+        th:nth-child(4){
+            height:50px;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <head class="h">
+        <tr>
+            <th colspan="2">NAME</th>
+            <th></th>
+        </tr>
+        </head>
+        <body>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        </body>
+    </table>
+    <table>
+        <head class="h">
+        <tr>
+            <th rowspan="3">APRIL</th>
+            <th></th>
+            <th></th>
+        </tr>
+        </head>
+        <body>
+            <tr>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </body>
+    </table>
+    <table>
+        <head class="h">
+            <tr>
+                <th colspan="3">2022</th>
+            </tr>
+        </head>
+        <body>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td colspan="2", rowspan="2">FIESTA</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </body>
+    </table>
+</body>
+</html>
